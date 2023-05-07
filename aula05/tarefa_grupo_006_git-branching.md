@@ -37,3 +37,14 @@ git checkout teste_02 -b
 (c) merge.
 
 git merge teste_01
+
+INSTRUÇÕES:
+
+1. No seu repositório pessoal, na sua branch pessoal, criar a pasta aula05.
+2. Commitar este arquivo respondido nesta pasta.
+3. A data limite para concluir esta tarefa é dia 01/05/2023, as 23h59min.
+
+</DIV/>
+
+
+
