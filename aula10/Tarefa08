@@ -1,0 +1,17 @@
+Aluno: Gabriel Cardoso de Castro
+
+Atividade de análise de inconformidades com classes de um projeto;
+
+Classe clientes:
+
+- Foi implementado no Java 8 a classe Date, que é mais eficiente do que a LocalDate.
+Fora isso o código está bem eficiente e coeso.
+
+Classe Premio_Seguro:
+
+- Validar os valores de entrada antes de executar o programa, assim, impedindo que sejam adicionados valores nulos ou vazios, e fazendo com que os dados inseridos estejam dentro apenas dos valores esperados.
+- Se separar as duas lógicas presentes no código, ficará mais facil de compreender o código. As lógicas presentes são de validação das informações e a lógica principal. Uma maneira de fazer isso seria através da criação de duas classes, uma de validar as informações e outra aplicando as regras de descontos.
+
+Classe Teste:
+
+- Uma maneira mais eficaz de verificar se o mês tem 30 dias pode ser atravez da classe Calendar.
