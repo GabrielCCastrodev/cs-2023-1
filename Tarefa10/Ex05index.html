@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 05</title>
+</head>
+<body>
+    <h1>Valores mostrados no console (Aperte F12 ou ctrl + shift + I)</h1>
+    <script>
+        // 5. Implementar um programa que:
+        //   * leia o valor do salário mínimo e o valor do salário de um usuário,
+        //   * calcule a quantidade de salários mínimos esse usuário ganha e imprima o resultado. (1SM=R$1.045,00).
+        ;(function(){
+            "use strict";
+            //ler o valor do salário mínimo
+            let salarioMinimo = prompt("Informe o valor do salário mínimo:");
+            //ler qual o valor do salário do usuário
+            let salarioUsuario = prompt("Informe o valor do salário do usuário:");
+
+            //calcular a quantidade de salários mínimos o usuário ganha
+            let qntSalariosMinimos = salarioUsuario / salarioMinimo;
+
+            //Mostrar quantos salários mínimos o usuário ganha com a precisão de 2 dígitos após a vírgula
+            console.log(`O usuário ganha: ${qntSalariosMinimos.toFixed(2)} salários mínimos`);
+        })()
+    </script>
+</body>
+</html>
