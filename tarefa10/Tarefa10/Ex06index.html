@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 06</title>
+</head>
+<body>
+    <h1>Valores mostrados no console (Aperte F12 ou ctrl + shift + I)</h1>
+    <script>
+        // 6. Implementar um programa que:
+        //   * leia um número inteiro
+        //   * e imprima o seu antecessor e seu sucessor.
+        ;(function(){
+            "use strict";
+            //recebe o número informado
+            let numero = prompt("Informe o número inteiro desejado:");
+        
+            //mostra o antecessor e seu sucessor
+            console.log(`${numero-1}, ${parseInt(numero)+1}`);
+        })()
+    </script>
+</body>
+</html>
