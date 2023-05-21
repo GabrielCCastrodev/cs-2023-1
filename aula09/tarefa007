@@ -1,0 +1,46 @@
+### Tarefa 007: Revisão de Código - 10/05/2023
+
+1. Solicita-se a leitura dos artigos disponíveis nos seguintes links:
+
+  1.1 [link1](https://appmaster.io/pt/blog/revisoes-de-codigo)
+
+  1.2 [link2](https://medium.com/codigorefinado/code-review-revis%C3%A3o-de-c%C3%B3digo-pode-ser-automatizada-ba5f25882774)
+
+2. Após a leitura elaborar um resumo descritivo de cada um deles. Destacando:
+
+  2.1 A importância da Revisão de código;
+
+  2.1 Os objetivos desta técnica;
+
+  2.2 O Processo de Revisão e
+
+  2.3 Descrever algumas das ferramentas de suporte a esta atividade, com seus respectivos links no texto.  
+  
+Aluno:Gabriel Cardoso de Castro
+RESUMO:
+
+    Quando falamos de revisão de código, estamos nos referindo a algo que, quando executado, pode evitar gastos desnecessários
+de tempo e recursos na construção de um software. Dessa maneira, sua importância torna-se evidente, sendo algo benéfico para
+os desenvolvedores de software aplicarem em seu dia a dia, ao desenvolverem seus códigos. Ao implementar tal prática no 
+desenvolvimento, é possível melhorar tanto a qualidade do software quanto a evitar potenciais problemas considerados "tolos"
+sob determinada visão, que podem ocorrer devido à falta de atenção ou erros de digitação do desenvolvedor, bem como escrever
+trechos de código desnecessários. Sob esse viés, o objetivo de implementar tal técnica torna-se evidente, já que ela traz 
+benefícios notórios à equipe de desenvolvimento do código, possivelmente tornando seus códigos mais eficientes e menos 
+propensos a possíveis bugs, entre outros.
+    Além disso, existem práticas que são possíveis de serem implementadas ao desenvolver um software. Um exemplo delas é a 
+documentação do código, a qual é uma prática extremamente benéfica para o programador e sua equipe, pois torna mais fácil
+a compreensão do código depois de um tempo e, ao revisá-lo, é mais fácil detectar possíveis erros.
+    Dessa forma, o processo de revisão de código consiste em determinados passos. Um possível primeiro passo é a pessoa que irá 
+revisar compreender sobre o que e como o código a ser revisado funciona. Após isso, ocorre a depuração do código, onde 
+possivelmente serão encontrados erros de digitação e ordem do código. Em seguida, temos o passo de segurança, onde serão 
+testadas a segurança e a proteção do código. Posteriormente, temos a legibilidade do código, onde será determinado quão 
+legível e compreensível o código está. O próximo passo é a duplicação do código, após isso, temos a nomeação, onde serão 
+verificados possíveis erros e formas de melhorar o código. Depois disso, temos os testes, onde o código será testado para 
+verificar se está tudo como o esperado. Nos próximos passos, serão verificadas possíveis melhorias, bem como a documentação 
+do código. E, por fim, é importante informar o desenvolvedor sobre o feedback da revisão de código.
+	Possíveis ferramentas de suporte a revisão de código:
+	1 - Codefactor(link:https://github.com/marketplace/codefactor)
+	2 - Codacy(link:https://github.com/marketplace/codacy)
+	3 - Codecov(link:https://medium.com/codigorefinado/code-review-revis%C3%A3o-de-c%C3%B3digo-pode-ser-automatizada-ba5f25882774)
+	4 - Snyk(link:https://github.com/marketplace/snyk)
+	5 - TSLint(link:https://palantir.github.io/tslint/)

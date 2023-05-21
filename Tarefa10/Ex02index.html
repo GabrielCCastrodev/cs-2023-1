@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 02</title>
+</head>
+<body>
+    <h1>Valores mostrados no console (Aperte F12 ou ctrl + shift + I)</h1>
+    <script>
+        // 2. Implementar um programa que:
+        //   * imprima a média aritmética dos números 8,9 e 7.
+        //   * A média dos números 4, 5 e 6.
+        //   * A soma das duas médias.
+        //   * A média das médias.
+        ;(function(){
+            "use strict";
+        
+            let media1 = (8 + 9 + 7) / 3;
+            //imprimir a primeira média
+            console.log(media1);
+        
+            let media2 = (4 + 5 + 6) / 3;
+            //imprimir a segunda mádia
+            console.log(media2);
+        
+            //imprimir a soma das médias
+            console.log(parseInt(media1) + parseInt(media2));
+        
+            //imprimir a média das médias
+            console.log((parseInt(media1) + parseInt(media2)) / 2);
+        
+        })()
+    </script>
+</body>
+</html>
