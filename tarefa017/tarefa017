@@ -1,0 +1,17 @@
+1.1 Configuração de software em tempo de execução:
+	Foi abordado o uso de perfis para adaptar a configuração do software a diferentes ambientes. Os perfis são utilizados para mapear beans específicos a cada ambiente, permitindo ativar apenas os beans necessários para cada caso, como desenvolvimento, teste ou produção. 
+  Ademais, a importância de definir um perfil padrão quando nenhum outro estiver ativo, e mostrou como acessar os perfis ativos programaticamente. 
+  Além disso, foi introduzido o suporte a perfis no Spring Boot, que oferece recursos adicionais, como a configuração de propriedades específicas para cada perfil em arquivos separados.
+	No geral, a utilização de perfis no Spring Framework permite uma configuração flexível e modular do software em tempo de execução, adaptando-se aos diferentes ambientes e facilitando a manutenção e o gerenciamento da aplicação.
+	
+1.2 Closure:
+	Closure em Java é um conceito que permite capturar variáveis locais por uma função anônima ou lambda. Essa captura permite que as variáveis sejam acessadas mesmo após o término do escopo em que foram definidas. 
+  As variáveis capturadas são "snapshot" do estado original e podem ser utilizadas dentro da função anônima ou lambda. As closures proporcionam uma forma poderosa e concisa de expressar comportamentos em Java, melhorando a legibilidade e a expressividade do código.
+	
+1.3 Generics:
+	Generics permitem a criação de classes, interfaces e métodos parametrizados para lidar com diferentes tipos de dados. 
+  Dessa forma, tornando o código mais flexível, reutilizável e seguro durante a compilação. O uso de generics ajuda a detectar erros de tipo em tempo de compilação e promove a reutilização do código para diferentes tipos de dados.
+	
+1.4 Logging:
+	Logging é o registro de mensagens ou eventos relevantes durante a execução de um programa. A API de Logging padrão do Java oferece classes e interfaces para lidar com logs. 
+  Os logs podem ser registrados em diferentes níveis de gravidade e direcionados para diferentes destinos, como console ou arquivos de log. O logging é útil para depuração e monitoramento do sistema.
